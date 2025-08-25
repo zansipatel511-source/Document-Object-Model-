@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="new">
+        <p>Today is the monday</p>
+    </div>
+</body>
+</html>
+
+<script>
+    var newPara = document.createElement("p");
+    newPara.innerText = "Life is Experiment.Test your ExciteMent";
+    newPara.setAttribute("class", "para");
+    newPara.setAttribute("id", "container");
+    document.getElementById("new").append(newPara);
+</script>
